@@ -1,0 +1,10 @@
+
+proxies:
+- name: test
+  type: trojan
+  server: sg6-trojan.bonds.id
+  port: 443
+  password: acb0fef0-a02e-11ec-adf6-1239d0255272
+  udp: true
+  sni: v24.tiktokcdn.com
+  skip-cert-verify: true 
